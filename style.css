@@ -1,0 +1,38 @@
+html{
+    --bc-col:#fff;
+    --item-col:#060fab;
+
+}
+.dark{
+    --bc-col:#000;
+    --item-col:#abff0c;
+}
+.purple{
+    --bc-col:#f0f;
+    --item-col:#ab00ab;
+}
+.blue{
+    --bc-col:#00f;
+    --item-col:#ff0;
+}
+.items{
+    width: 25vw;
+    height: 30vh;
+    background-color: var(--item-col);
+    box-shadow: 2px 4px 20px #0f0f0f;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+body{
+    background-color: var(--bc-col);
+    
+}
+#select{
+    position: fixed;
+    top: 1rem;
+    right: 3rem;
+}
